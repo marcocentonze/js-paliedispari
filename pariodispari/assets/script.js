@@ -24,8 +24,8 @@ let sum = 0;
 sum = numeroUtente + numeroRandomPc;
 console.log(sum);
 //creiamo una variabile per dire se è pari o dispari
-let numeroPari = "pari";
-let numeroDispari = "dispari";
+//let numeroPari = "pari";
+//let numeroDispari = "dispari";
 //stabiliamo se la somma dei due numeri è pari o dispari
 /*if (sum % 2 === 0) {
   sum = numeroPari;
@@ -36,25 +36,21 @@ let numeroDispari = "dispari";
   console.log(sum);
 } */
 
-function isEven(numeroUtente) {
+function isEven(sum) {
    if (sum % 2 === 0) {
-    return numeroPari;
-   }
-   return numeroDispari;
+    return "pari" ;
+   } 
+   return "dispari";
 }
-
+console.log(isEven(sum));
 
 //dichiariamo il vincitore
-/*if (sum = pariODispari) {
+if (isEven(sum) == pariODispari) {
   console.log("Complimenti hai vinto");
 } else {
   console.log("Mi dispiace,hai perso");
-}  */
-function vincitore() {
-    if (sum = pariODispari) {
-        return console.log('Complimenti hai vinto') 
-        }
-        return console.log('Mi dispiace,hai perso')
-}
+}  
+
+
 
 
