@@ -23,8 +23,8 @@ console.log(numeroUtente);
 sum  = numeroUtente + numeroRandomPc;
 console.log(sum);
 //creiamo una variabile per dire se è pari o dispari
-  let numeroPari= true;
-  let numeroDispari =false;
+  let numeroPari= ('pari');
+  let numeroDispari =('dispari');
   //stabiliamo se la somma dei due numeri è pari o dispari
 if (sum % 2 === 0) {
     sum = numeroPari ;
@@ -35,6 +35,11 @@ if (sum % 2 === 0) {
    console.log(sum);
 } 
 //dichiariamo il vincitore
+if (sum = pariODispari) {
+    console.log('Complimenti hai vinto');
+} else {
+    console.log('Mi dispiace,hai perso');
+}
 
 
   
